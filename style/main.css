@@ -1,0 +1,103 @@
+:root{
+    --vermelho:#E50914;
+    --preta: #141414;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Para garantir que os elementos de tela tenham exatamente os tamanhos que foram definidos em código*/
+}
+
+/*ELEMENTOS BASE*/
+
+body {
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row; /*Padrão*/
+    align-items: center;
+    justify-content: space-between; /*Distância entre os elementos Nav e Logo*/
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size:40px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+
+}
+
+header nav a:hover{
+    color: #ffff;
+}
+
+/*FILME PRINCIPAL*/
+
+.filme-principal{
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50) 100%), url('../img/breno.jpg');
+    
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 600px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-principal .descricao{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left: 10px;
+}
+
+.titulo{
+    margin-left: 10px;
+    margin-top: 20%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS';
+}
+
+
+/*
+No fontawesome.com, é possível pegar os ícones prontos
+*/
+
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor:pointer;
+    transition: .4s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+    
+}
+
+.botao i{
+    margin-right: 5px;
+}
