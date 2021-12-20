@@ -4,11 +4,33 @@
     flex-direction: column;    
     }
 
-    .botao{
+    .filme-principal{
+        height: 600px;
+        margin-top: 10px;
+    }
+
+    .titulo{
+        margin-top: 100%;
+    }
+
+    .container{
+       font-size: 3.5vw;
+    }
+
+    .descricao{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .botao{ 
         margin-top: 5px;
-        width: 170px;
-        height: 60px;
+        width: 250px;
+        height: 40px;
         margin-bottom: 10px;
+    }
+
+    .botoes{
+        margin-top: 10px;
     }
 
 }

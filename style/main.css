@@ -51,11 +51,12 @@ header nav a:hover{
     
     background-size:cover;
     background-repeat: no-repeat;
+    background-position:center;
     height: 500px;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: center bottom;
     align-items: flex-start;
 
 }
